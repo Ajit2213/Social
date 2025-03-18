@@ -34,7 +34,7 @@ export const Input = () => {
         setVideoId(null);
         setLoading(true);
         setError(null);
-
+setUrl("");
         try {
             const detectedPlatform = identifyPlatform(url);
             setPlatform(detectedPlatform);
